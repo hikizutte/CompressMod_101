@@ -2,6 +2,8 @@ package com.keeper.compressmod.item;
 
 import java.util.List;
 
+import javax.annotation.Nullable;
+
 import com.keeper.compressmod.main.CompressMod;
 
 import net.minecraft.client.util.ITooltipFlag;
@@ -30,8 +32,11 @@ public class ItemPotatoStick extends Item{
 		this.setRegistryName("potato_stick");
 	}
 	
-	@Override
-	public void appendHoverText(ItemStack stackIn, World worldIn, List<ITextComponent> toolTip, ITooltipFlag flagIn) {
-	      toolTip.add(new TranslationTextComponent(this.getDescriptionId() + ".desc").withStyle(TextFormatting.GRAY));
+	public void addInformation(ItemStack stack, @Nullable World worldIn, List<ITextComponent> tooltip, ITooltipFlag flagIn) {
+		
+	      tooltip.add(new TranslationTextComponent(this.getDescriptionId() + ".desc").withStyle(TextFormatting.GRAY));
+	      
 	}
+	
+	
 }

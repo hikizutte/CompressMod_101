@@ -2,5 +2,6 @@
 	"itemGroup.compressmod": "圧縮 Mod",
 	"item.compressmod.compressed_cobblestone_ingot":  "圧縮丸石インゴット",
 	"item.compressmod.potato_stick": "マックのポテト",
-	"item.compressmod.potato_stick.desc": "揚げたてのポテト。不思議な力を授ける。"
+	"item.compressmod.potato_stick.desc": "揚げたてのポテト。不思議な力を授ける。",
+	"block.compressmod.compressed_cobblestone": "圧縮丸石"
 }

@@ -2,5 +2,7 @@
 	"itemGroup.compressmod": "Compress Mod",
 	"item.compressmod.compressed_cobblestone_ingot":  "CompressedCobblestoneIngot",
 	"item.compressmod.potato_stick": "PotatoStick",
-	"item.compressmod.potato_stick.desc": "Freshly Fried Potatoes.It gives your magical power!"
+	"item.compressmod.potato_stick.desc": "Freshly Fried Potatoes.It gives your magical power!",
+	"block.compressmod.compressed_cobblestone": "CompressedCobblestone"
+	
 }
