@@ -1,6 +1,7 @@
 package com.keeper.compressmod.regi;
 
 import com.keeper.compressmod.item.ItemCompressedCobblestoneIngot;
+import com.keeper.compressmod.item.ItemPotatoStick;
 
 import net.minecraft.item.Item;
 import net.minecraftforge.event.RegistryEvent;
@@ -19,7 +20,8 @@ public class CompressModItems {
 		public static void registerItems(final RegistryEvent.Register<Item> event) {
 			
 			final Item[] item = {
-					new ItemCompressedCobblestoneIngot()
+					new ItemCompressedCobblestoneIngot(),
+					new ItemPotatoStick()
 					
 			};
 			
