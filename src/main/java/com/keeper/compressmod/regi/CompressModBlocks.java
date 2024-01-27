@@ -1,10 +1,13 @@
 package com.keeper.compressmod.regi;
 
 import com.google.common.base.Preconditions;
+import com.keeper.compressmod.block.BlockBulletproofGlass;
 import com.keeper.compressmod.block.BlockCompressedCobblestone;
 import com.keeper.compressmod.main.CompressMod;
 
 import net.minecraft.block.Block;
+import net.minecraft.client.renderer.RenderType;
+import net.minecraft.client.renderer.RenderTypeLookup;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.util.ResourceLocation;
@@ -18,6 +21,7 @@ import net.minecraftforge.registries.ObjectHolder;
 public class CompressModBlocks {
 	
 	public static final BlockCompressedCobblestone COMPRESSED_COBBLESTONE = null;
+	public static final BlockBulletproofGlass BULLETPROOF_GLASS = null;
 
 	@Mod.EventBusSubscriber(modid = "compressmod", bus = Bus.MOD)
 	public static class Register{
@@ -26,11 +30,20 @@ public class CompressModBlocks {
 		public static void registerBlock(final RegistryEvent.Register<Block> event) {
 			
 			final Block[] blocks = {
-					new BlockCompressedCobblestone()
+					new BlockCompressedCobblestone(),
+					new BlockBulletproofGlass(),
 					
 					
 			};
 			event.getRegistry().registerAll(blocks);
+			
+			for(Block block : blocks) {
+				if (block instanceof BlockBulletproofGlass) {
+					RenderTypeLookup.setRenderLayer(block, RenderType.translucent());
+					//RenderTypeLookup.setRenderLayer(block, RenderType.cutout());
+					//RenderTypeLookup.setRenderLayer(block, RenderType.cutoutMipped());
+				}
+			}
 			
 		}
 		
@@ -39,8 +52,8 @@ public class CompressModBlocks {
 			
 			final BlockItem[] items = {
 					
-					new BlockItem(COMPRESSED_COBBLESTONE,new Item.Properties().tab(CompressMod.COMPRESSMOD_TAB))
-					
+					new BlockItem(COMPRESSED_COBBLESTONE,new Item.Properties().tab(CompressMod.COMPRESSMOD_TAB)),
+					new BlockItem(BULLETPROOF_GLASS,new Item.Properties().tab(CompressMod.COMPRESSMOD_TAB))
 					
 			};
 			for(BlockItem item : items) {
