@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "###",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:potato"
+        }
+    },
+    "result": {
+        "item": "compressmod:potato_stick",
+        "count": 2
+    }
+}
