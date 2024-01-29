@@ -1,8 +1,8 @@
 {
 	"itemGroup.compressmod": "Compress Mod",
 	"item.compressmod.compressed_cobblestone_ingot":  "CompressedCobblestoneIngot",
-	"item.compressmod.french_fries": "FrenchFries",
-	"item.compressmod.french_fries.desc": "Freshly Fried Potatoes.It gives your magical power!",
+	"item.compressmod.freshly_french_fries": "FreshlyFrenchFries",
+	"item.compressmod.freshly_french_fries.desc": "Freshly Fried Potatoes.It gives your magical power!",
 	"item.compressmod.potato_stick": "PotatoStick",
 	"block.compressmod.compressed_cobblestone": "CompressedCobblestone",
 	"block.compressmod.bulletproof_glass": "BulletproofGlass"

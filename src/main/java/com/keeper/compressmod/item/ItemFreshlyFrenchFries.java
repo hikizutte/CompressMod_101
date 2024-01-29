@@ -10,6 +10,7 @@ import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.item.Food;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
+import net.minecraft.item.Rarity;
 import net.minecraft.potion.EffectInstance;
 import net.minecraft.potion.Effects;
 import net.minecraft.util.text.ITextComponent;
@@ -18,18 +19,20 @@ import net.minecraft.util.text.TranslationTextComponent;
 import net.minecraft.world.World;
 
 
-public class ItemFrenchFries extends Item{
+public class ItemFreshlyFrenchFries extends Item{
 	
 	@SuppressWarnings("deprecation")
-	public ItemFrenchFries() {
+	public ItemFreshlyFrenchFries() {
 		
 		super(new Properties().tab(CompressMod.COMPRESSMOD_TAB)
 				.food(new Food.Builder()
 						.nutrition(6)
 						.saturationMod(6)
 						.effect(new EffectInstance(Effects.ABSORPTION,1200,1), 1F)
-						.build()));
-		this.setRegistryName("french_fries");
+						.build())
+				.rarity(Rarity.COMMON)
+				);
+		this.setRegistryName("freshly_french_fries");
 	}
 	
 	public void addInformation(ItemStack stack, @Nullable World worldIn, List<ITextComponent> tooltip, ITooltipFlag flagIn) {
@@ -37,6 +40,5 @@ public class ItemFrenchFries extends Item{
 	      tooltip.add(new TranslationTextComponent(this.getDescriptionId() + ".desc").withStyle(TextFormatting.GRAY));
 	      
 	}
-	
 	
 }
