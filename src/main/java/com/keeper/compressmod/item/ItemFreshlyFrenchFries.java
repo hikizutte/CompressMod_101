@@ -30,7 +30,7 @@ public class ItemFreshlyFrenchFries extends Item{
 						.saturationMod(6)
 						.effect(new EffectInstance(Effects.ABSORPTION,1200,1), 1F)
 						.build())
-				.rarity(Rarity.COMMON)
+				.rarity(Rarity.RARE)
 				);
 		this.setRegistryName("freshly_french_fries");
 	}
@@ -41,4 +41,40 @@ public class ItemFreshlyFrenchFries extends Item{
 	      
 	}
 	
+	/*
+    public ActionResult<ItemStack> onItemRightClick(World world, PlayerEntity player, EquipmentSlotType hand) {
+        ItemStack stack = player.getItemBySlot(hand);
+        
+        
+
+        if (!world.isClientSide()) {
+            // 初めての右クリック時にNBTデータを設定
+            if (!stack.hasTag()) {
+                stack.setTag(new CompoundNBT());
+                stack.getTag().putLong("StartTime", world.getGameTime());
+            }
+
+            // 経過時間を計算し、30分後にアイテムを変化させる
+            long currentTime = world.getGameTime();
+            long startTime = stack.getTag().getLong("StartTime");
+            long elapsedMinutes = TimeUnit.SECONDS.toMinutes(currentTime - startTime);
+
+            if (elapsedMinutes >= 1) {
+                // 冷めた肉にアイテムを変化させる
+                ItemStack frenchFries = new ItemStack(CompressModItems.FRESHLY_FRENCH_FRIES.getItem());
+                frenchFries.setTag(stack.getTag());
+                player.getItemBySlot(hand);
+
+                // メッセージを表示
+                player.sendMessage(new StringTextComponent("アイテムが冷めました。"), player.getUUID());
+            } else {
+                // まだ焼きたての肉
+                player.addItem(CompressModItemStack.COLD_FRENCH_FRIES);
+            }
+        }
+
+        return ActionResult.success(stack);
+    }
+    */
+    
 }

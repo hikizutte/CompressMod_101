@@ -1,8 +1,10 @@
 {
 	"itemGroup.compressmod": "圧縮 Mod",
 	"item.compressmod.compressed_cobblestone_ingot":  "圧縮丸石インゴット",
-	"item.compressmod.french_fries": "揚げたてポテト",
-	"item.compressmod.french_fries.desc": "揚げたてのポテト。不思議な力を授ける。",
+	"item.compressmod.freshly_french_fries": "アツアツポテト",
+	"item.compressmod.freshly_french_fries.desc": "アツアツのポテト。不思議な力を授ける。",
+	"item.compressmod.cold_french_fries": "冷めたポテト",
+	"item.compressmod.cold_french_fries.desc": "なんの変哲もないただのポテト。しなしなで冷たい。",
 	"item.compressmod.potato_stick": "ポテトの棒",
 	"block.compressmod.compressed_cobblestone": "圧縮丸石",
 	"block.compressmod.bulletproof_glass": "防弾ガラス"

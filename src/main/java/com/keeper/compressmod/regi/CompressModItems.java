@@ -1,5 +1,6 @@
 package com.keeper.compressmod.regi;
 
+import com.keeper.compressmod.item.ItemColdFrenchFries;
 import com.keeper.compressmod.item.ItemCompressedCobblestoneIngot;
 import com.keeper.compressmod.item.ItemFreshlyFrenchFries;
 import com.keeper.compressmod.item.ItemPotatoStick;
@@ -14,6 +15,9 @@ import net.minecraftforge.registries.ObjectHolder;
 
 @ObjectHolder("compressmod")
 public class CompressModItems {
+	
+	public static final Item FRESHLY_FRENCH_FRIES = null;
+
 
 	@Mod.EventBusSubscriber(modid = "compressmod", bus = Bus.MOD)
 	public static class Register{
@@ -23,6 +27,7 @@ public class CompressModItems {
 			final Item[] item = {
 					new ItemCompressedCobblestoneIngot(),
 					new ItemFreshlyFrenchFries(),
+					new ItemColdFrenchFries(),
 					new ItemPotatoStick()
 					
 			};
