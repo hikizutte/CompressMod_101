@@ -1,6 +1,6 @@
-package com.keeper.compressmod.main;
+package com.hikizutte.compressmod.main;
 
-import com.keeper.compressmod.regi.CompressModTab;
+import com.hikizutte.compressmod.regi.CompressModTab;
 
 import net.minecraft.item.ItemGroup;
 import net.minecraftforge.fml.common.Mod;

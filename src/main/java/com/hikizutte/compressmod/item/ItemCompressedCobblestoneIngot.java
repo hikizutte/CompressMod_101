@@ -1,6 +1,6 @@
-package com.keeper.compressmod.item;
+package com.hikizutte.compressmod.item;
 
-import com.keeper.compressmod.main.CompressMod;
+import com.hikizutte.compressmod.main.CompressMod;
 
 import net.minecraft.item.Item;
 

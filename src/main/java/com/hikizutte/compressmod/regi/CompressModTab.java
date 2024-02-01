@@ -1,4 +1,4 @@
-package com.keeper.compressmod.regi;
+package com.hikizutte.compressmod.regi;
 
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;

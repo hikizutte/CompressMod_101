@@ -1,4 +1,4 @@
-package com.keeper.compressmod.block;
+package com.hikizutte.compressmod.block;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.SoundType;

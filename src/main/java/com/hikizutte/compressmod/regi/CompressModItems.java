@@ -1,9 +1,9 @@
-package com.keeper.compressmod.regi;
+package com.hikizutte.compressmod.regi;
 
-import com.keeper.compressmod.item.ItemColdFrenchFries;
-import com.keeper.compressmod.item.ItemCompressedCobblestoneIngot;
-import com.keeper.compressmod.item.ItemFreshlyFrenchFries;
-import com.keeper.compressmod.item.ItemPotatoStick;
+import com.hikizutte.compressmod.item.ItemColdFrenchFries;
+import com.hikizutte.compressmod.item.ItemCompressedCobblestoneIngot;
+import com.hikizutte.compressmod.item.ItemFreshlyFrenchFries;
+import com.hikizutte.compressmod.item.ItemPotatoStick;
 
 import net.minecraft.item.Item;
 import net.minecraftforge.event.RegistryEvent;

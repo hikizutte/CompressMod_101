@@ -1,10 +1,10 @@
-package com.keeper.compressmod.item;
+package com.hikizutte.compressmod.item;
 
 import java.util.List;
 
 import javax.annotation.Nullable;
 
-import com.keeper.compressmod.main.CompressMod;
+import com.hikizutte.compressmod.main.CompressMod;
 
 import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.item.Food;

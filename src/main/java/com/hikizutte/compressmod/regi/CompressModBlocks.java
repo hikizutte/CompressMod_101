@@ -1,9 +1,9 @@
-package com.keeper.compressmod.regi;
+package com.hikizutte.compressmod.regi;
 
 import com.google.common.base.Preconditions;
-import com.keeper.compressmod.block.BlockBulletproofGlass;
-import com.keeper.compressmod.block.BlockCompressedCobblestone;
-import com.keeper.compressmod.main.CompressMod;
+import com.hikizutte.compressmod.block.BlockBulletproofGlass;
+import com.hikizutte.compressmod.block.BlockCompressedCobblestone;
+import com.hikizutte.compressmod.main.CompressMod;
 
 import net.minecraft.block.Block;
 import net.minecraft.client.renderer.RenderType;
