@@ -1,21 +1,22 @@
 modLoader="javafml" #mandatory
 loaderVersion="[36,)" #mandatory
 license="All rights reserved"
-#issueTrackerURL="https://change.me.to.your.issue.tracker.example.invalid/" #optional
+#issueTrackerURL="" #optional
 
 [[mods]] #mandatory
 modId="compressmod" #mandatory
 # ${file.jarVersion} will substitute the value of the Implementation-Version as read from the mod's JAR file metadata
 version="1.0" #mandatory
-displayName="CompressMod" #mandatory
-#displayURL="https://change.me.to.your.mods.homepage.example.invalid/" #optional
+displayName="Compress Mod" #mandatory
+#displayURL="" #optional
 logoFile="logo.png" #optional
 # A text field displayed in the mod UI
-credits="Thanks for this example mod goes to Java" #optional
+credits="Thanks for this compress mod goes to Java" #optional
 # A text field displayed in the mod UI
 authors="hikizutte" #optional
 # The description text for the mod (multi line!) (#mandatory)
 description="testtestest"
+generate_data = true
 
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
 [[dependencies.compressmod]] #optional

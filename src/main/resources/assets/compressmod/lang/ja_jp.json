@@ -6,7 +6,9 @@
 	"item.compressmod.cold_french_fries": "冷めたポテト",
 	"item.compressmod.cold_french_fries.desc": "なんの変哲もないただのポテト。しなしなで冷たい。",
 	"item.compressmod.potato_stick": "ポテトの棒",
+	"item.compressmod.reinforced_iron_ingot":"強化鉄インゴット",
 	"block.compressmod.compressed_cobblestone": "圧縮丸石",
 	"block.compressmod.compressed_iron_block": "圧縮鉄ブロック",
+	"block.compressmod.compressed_gold_block": "圧縮金ブロック",
 	"block.compressmod.bulletproof_glass": "防弾ガラス"
 }
