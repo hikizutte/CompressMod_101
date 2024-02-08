@@ -4,6 +4,7 @@ import com.hikizutte.compressmod.item.ItemColdFrenchFries;
 import com.hikizutte.compressmod.item.ItemCompressedCobblestoneIngot;
 import com.hikizutte.compressmod.item.ItemFreshlyFrenchFries;
 import com.hikizutte.compressmod.item.ItemPotatoStick;
+import com.hikizutte.compressmod.item.ItemReinforcedDiamond;
 import com.hikizutte.compressmod.item.ItemReinforcedGoldIngot;
 import com.hikizutte.compressmod.item.ItemReinforcedIronIngot;
 
@@ -32,7 +33,8 @@ public class CompressModItems {
 					new ItemColdFrenchFries(),
 					new ItemPotatoStick(),
 					new ItemReinforcedIronIngot(),
-					new ItemReinforcedGoldIngot()
+					new ItemReinforcedGoldIngot(),
+					new ItemReinforcedDiamond()
 					
 			};
 			

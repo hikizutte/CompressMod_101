@@ -3,6 +3,7 @@ package com.hikizutte.compressmod.regi;
 import com.google.common.base.Preconditions;
 import com.hikizutte.compressmod.block.BlockBulletproofGlass;
 import com.hikizutte.compressmod.block.BlockCompressedCobblestone;
+import com.hikizutte.compressmod.block.BlockCompressedDiamondBlock;
 import com.hikizutte.compressmod.block.BlockCompressedGoldBlock;
 import com.hikizutte.compressmod.block.BlockCompressedIronBlock;
 import com.hikizutte.compressmod.main.CompressMod;
@@ -24,8 +25,9 @@ public class CompressModBlocks {
 	
 	public static final BlockCompressedCobblestone COMPRESSED_COBBLESTONE = null;
 	public static final BlockBulletproofGlass BULLETPROOF_GLASS = null;
-	public static final BlockCompressedIronBlock COMPRESSED_Iron_Block = null;
-	public static final BlockCompressedGoldBlock COMPRESSED_Gold_Block = null;
+	public static final BlockCompressedIronBlock COMPRESSED_IRON_BLOCK = null;
+	public static final BlockCompressedGoldBlock COMPRESSED_GOLD_BLOCK = null;
+	public static final BlockCompressedDiamondBlock COMPRESSED_DIAMOND_BLOCK = null;
 
 	@Mod.EventBusSubscriber(modid = "compressmod", bus = Bus.MOD)
 	public static class Register{
@@ -37,7 +39,8 @@ public class CompressModBlocks {
 					new BlockCompressedCobblestone(),
 					new BlockBulletproofGlass(),
 					new BlockCompressedIronBlock(),
-					new BlockCompressedGoldBlock()
+					new BlockCompressedGoldBlock(),
+					new BlockCompressedDiamondBlock()
 					
 					
 			};
@@ -60,8 +63,10 @@ public class CompressModBlocks {
 					
 					new BlockItem(COMPRESSED_COBBLESTONE,new Item.Properties().tab(CompressMod.COMPRESSMOD_TAB)),
 					new BlockItem(BULLETPROOF_GLASS,new Item.Properties().tab(CompressMod.COMPRESSMOD_TAB)),
-					new BlockItem(COMPRESSED_Iron_Block, new Item.Properties().tab(CompressMod.COMPRESSMOD_TAB)),
-					new BlockItem(COMPRESSED_Gold_Block, new Item.Properties().tab(CompressMod.COMPRESSMOD_TAB)),
+					new BlockItem(COMPRESSED_IRON_BLOCK, new Item.Properties().tab(CompressMod.COMPRESSMOD_TAB)),
+					new BlockItem(COMPRESSED_GOLD_BLOCK, new Item.Properties().tab(CompressMod.COMPRESSMOD_TAB)),
+					new BlockItem(COMPRESSED_DIAMOND_BLOCK, new Item.Properties().tab(CompressMod.COMPRESSMOD_TAB))
+					
 					
 			};
 			for(BlockItem item : items) {

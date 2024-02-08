@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:smelting",
+    "ingredient": {
+        "item": "compressmod:compressed_diamond_block"
+    },
+    "result": "compressmod:reinforced_diamond",
+    "experience": 0.1,
+    "cookingtime": 200
+}
