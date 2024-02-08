@@ -4,6 +4,7 @@ import com.hikizutte.compressmod.item.ItemColdFrenchFries;
 import com.hikizutte.compressmod.item.ItemCompressedCobblestoneIngot;
 import com.hikizutte.compressmod.item.ItemFreshlyFrenchFries;
 import com.hikizutte.compressmod.item.ItemPotatoStick;
+import com.hikizutte.compressmod.item.ItemReinforcedGoldIngot;
 import com.hikizutte.compressmod.item.ItemReinforcedIronIngot;
 
 import net.minecraft.item.Item;
@@ -30,7 +31,8 @@ public class CompressModItems {
 					new ItemFreshlyFrenchFries(),
 					new ItemColdFrenchFries(),
 					new ItemPotatoStick(),
-					new ItemReinforcedIronIngot()
+					new ItemReinforcedIronIngot(),
+					new ItemReinforcedGoldIngot()
 					
 			};
 			
