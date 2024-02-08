@@ -8,7 +8,9 @@ public class ItemReinforcedDiamond extends Item {
 	
 	public ItemReinforcedDiamond() {
 	
-		super(new Properties().tab(CompressMod.COMPRESSMOD_TAB));
+		super(new Properties()
+				.tab(CompressMod.COMPRESSMOD_TAB)
+				);
 		this.setRegistryName("reinforced_diamond");
 		
 	}

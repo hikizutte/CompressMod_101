@@ -19,7 +19,10 @@ import net.minecraftforge.registries.ObjectHolder;
 @ObjectHolder("compressmod")
 public class CompressModItems {
 	
-	public static final Item FRESHLY_FRENCH_FRIES = null;
+	public static final ItemFreshlyFrenchFries FRESHLY_FRENCH_FRIES = new ItemFreshlyFrenchFries();
+	public static final ItemReinforcedIronIngot REINFORCED_IRON_INGOT = new ItemReinforcedIronIngot();
+	public static final ItemReinforcedGoldIngot REINFORCED_GOLD_INGOT = new ItemReinforcedGoldIngot();
+	public static final ItemReinforcedDiamond REINFORCED_DIAMOND = new ItemReinforcedDiamond();
 
 
 	@Mod.EventBusSubscriber(modid = "compressmod", bus = Bus.MOD)
@@ -32,9 +35,9 @@ public class CompressModItems {
 					new ItemFreshlyFrenchFries(),
 					new ItemColdFrenchFries(),
 					new ItemPotatoStick(),
-					new ItemReinforcedIronIngot(),
-					new ItemReinforcedGoldIngot(),
-					new ItemReinforcedDiamond()
+					REINFORCED_IRON_INGOT,
+					REINFORCED_GOLD_INGOT,
+					REINFORCED_DIAMOND
 					
 			};
 			
