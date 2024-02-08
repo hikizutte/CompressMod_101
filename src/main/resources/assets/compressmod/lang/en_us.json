@@ -9,6 +9,7 @@
 	"item.compressmod.reinforced_iron_ingot":"ReinforcedIronIngot",
 	"item.compressmod.reinforced_gold_ingot":"ReinforcedGoldIngot",
 	"item.compressmod.reinforced_diamond":"ReinforcedDiamond",
+	"item.compressmod.reinforced_sword":"ReinforcedSword",
 	"block.compressmod.compressed_cobblestone": "CompressedCobblestone",
 	"block.compressmod.compressed_iron_block": "CompressedBlockOfIron",
 	"block.compressmod.compressed_gold_block": "CompressedBlockOfGold",
